@@ -15,4 +15,5 @@ public class MyWebViewClient extends WebViewClient {
         view.loadUrl(url);
         return true;
     }
-}
+
+  }
