@@ -3,7 +3,7 @@
     <string name="app_name">三界</string>
     <string name="url">http://tri-mira.ru/ch</string>
     <string name="url_home">http://tri-mira.ru/en</string>
-    <string name="url_routes">http://tri-mira.ru/en/marshrut</string>
+    <string name="url_route">http://tri-mira.ru/en/marshrut</string>
     <string name="url_faq">http://tri-mira.ru/ch/content/nin-de-wen-ti</string>
     <string name="nav_item_route">Route</string>
     <string name="nav_item_home">Home</string>

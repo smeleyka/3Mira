@@ -3,7 +3,7 @@
     <string name="app_name">Три Мира</string>
     <string name="url">http://tri-mira.ru/</string>
     <string name="url_home">http://tri-mira.ru/</string>
-    <string name="url_routes">http://tri-mira.ru/marshrut</string>
+    <string name="url_route">http://tri-mira.ru/marshrut</string>
     <string name="url_faq">http://tri-mira.ru/content/vashi-voprosy</string>
     <string name="nav_item_route">Маршруты</string>
     <string name="nav_item_home">Домой</string>
