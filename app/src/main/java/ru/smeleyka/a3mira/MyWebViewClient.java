@@ -1,6 +1,7 @@
 package ru.smeleyka.a3mira;
 
 import android.annotation.TargetApi;
+import android.view.KeyEvent;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -16,4 +17,10 @@ public class MyWebViewClient extends WebViewClient {
         return true;
     }
 
-  }
+    @Override
+    public boolean shouldOverrideKeyEvent(WebView view, KeyEvent event) {
+        return super.shouldOverrideKeyEvent(view, event);
+    }
+
+
+}
