@@ -16,8 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="bottom"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior"
             android:visibility="visible"
+            app:layout_behavior="ru.smeleyka.a3mira.BottomNavigationViewBehavior"
             />
 
         <android.support.design.widget.BottomNavigationView
@@ -27,7 +27,6 @@
             android:background="?android:attr/windowBackground"
             android:layout_gravity="bottom"
             app:menu="@menu/bottom_navigation_items"
-            app:layout_behavior="ru.smeleyka.a3mira.BottomNavigationViewBehavior"
             />
 
     </android.support.design.widget.CoordinatorLayout>

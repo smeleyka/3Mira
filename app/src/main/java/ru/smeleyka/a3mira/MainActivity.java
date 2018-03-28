@@ -1,5 +1,6 @@
 package ru.smeleyka.a3mira;
 
+import android.annotation.TargetApi;
 import android.os.Build;
 import android.support.design.widget.BottomNavigationView;
 import android.support.design.widget.CoordinatorLayout;
@@ -71,6 +72,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        webView.computeScroll();
+
+        scroll();
+
+
+
 
 
         //webView.loadUrl(getString(R.string.url));
@@ -109,5 +116,29 @@ public class MainActivity extends AppCompatActivity {
             super.onBackPressed();
         }
     }
+
+    @TargetApi(23)
+    public void scroll(){
+        webView.setOnScrollChangeListener((v, scrollX, scrollY, oldScrollX, oldScrollY) -> {
+            Log.d(TAG,"scrollX"+String.valueOf(scrollX));
+            Log.d(TAG,"scrollY"+String.valueOf(scrollY));
+            Log.d(TAG,"oldScrollX"+String.valueOf(oldScrollX));
+            Log.d(TAG,"oldScrollY"+String.valueOf(oldScrollY));
+            showBottomNavigation(oldScrollY<scrollY);
+        });
+    }
+
+    public void showBottomNavigation(boolean show){
+       if(show) {
+           mBottomNavigationView.setVisibility(View.INVISIBLE);
+       }
+
+       else if (!show){
+           mBottomNavigationView.setVisibility(View.VISIBLE);
+       }
+    }
+
+
+
 
 }
