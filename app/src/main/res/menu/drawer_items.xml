@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="bottom_navigation_view">
+    tools:showIn="drawer_navigation_view">
+
+    <group android:checkableBehavior="single">
     <item
-        android:id="@+id/action_home"
+        android:id="@+id/drawer_action_home"
         android:icon="@drawable/ic_home"
         android:title="@string/nav_item_home" />
     <item
-        android:id="@+id/action_route"
+        android:id="@+id/drawer_action_route"
         android:icon="@drawable/ic_route"
         android:title="@string/nav_item_route" />
     <item
-        android:id="@+id/action_faq"
+        android:id="@+id/drawer_action_faq"
         android:icon="@drawable/ic_faq"
         android:title="@string/nav_item_faq" />
+    </group>
+
 </menu>

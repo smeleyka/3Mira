@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ru.smeleyka.a3mira.MainActivity">
+    android:fitsSystemWindows="true"
+    tools:context="ru.smeleyka.a3mira.MainActivity"
+    tools:openDrawer="start">
+
 
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:navigationIcon="@drawable/ic_3mira"/>
+
+        </android.support.design.widget.AppBarLayout>
 
         <WebView
             android:id="@+id/web_view"
@@ -17,18 +34,26 @@
             android:layout_height="match_parent"
             android:layout_gravity="bottom"
             android:visibility="visible"
-            app:layout_behavior="ru.smeleyka.a3mira.BottomNavigationViewBehavior"
-            />
+            app:layout_behavior="ru.smeleyka.a3mira.BottomNavigationViewBehavior" />
 
         <android.support.design.widget.BottomNavigationView
-            android:id="@+id/bottom_nav"
+            android:id="@+id/bottom_navigation_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="?android:attr/windowBackground"
             android:layout_gravity="bottom"
-            app:menu="@menu/bottom_navigation_items"
-            />
+            android:background="?android:attr/windowBackground"
+            app:menu="@menu/bottom_navigation_items" />
 
     </android.support.design.widget.CoordinatorLayout>
 
-</android.support.constraint.ConstraintLayout>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/drawer_navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:menu="@menu/drawer_items"
+        app:headerLayout="@layout/drawer_header"
+        />
+
+</android.support.v4.widget.DrawerLayout>

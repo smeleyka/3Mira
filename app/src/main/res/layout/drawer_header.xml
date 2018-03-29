@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:paddingTop="24dp"
+    android:paddingLeft="8dp"
+    android:orientation="horizontal"
+    android:gravity="bottom"
+    android:background="@drawable/drawer_header_background"
+    >
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/ic_3mira"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Три Мира"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Клуб Активного Отдыха"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

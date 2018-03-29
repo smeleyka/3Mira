@@ -8,4 +8,6 @@
     <string name="nav_item_route">Маршруты</string>
     <string name="nav_item_home">Домой</string>
     <string name="nav_item_faq">ЧАВО</string>
+    <string name="open_navigation_drawer">Open nav drawer</string>
+    <string name="close_navigation_drawer">Close navigation drawer</string>
 </resources>

@@ -8,4 +8,6 @@
     <string name="nav_item_route">Route</string>
     <string name="nav_item_home">Home</string>
     <string name="nav_item_faq">FAQ</string>
+    <string name="open_navigation_drawer">Open nav drawer</string>
+    <string name="close_navigation_drawer">Close navigation drawer</string>
 </resources>
