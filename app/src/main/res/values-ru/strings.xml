@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Три Мира</string>
+    <string name="app_name">ТриМира</string>
     <string name="url">http://tri-mira.ru/</string>
     <string name="url_home">http://tri-mira.ru/</string>
     <string name="url_route">http://tri-mira.ru/marshrut</string>
@@ -10,4 +10,6 @@
     <string name="nav_item_faq">ЧАВО</string>
     <string name="open_navigation_drawer">Open nav drawer</string>
     <string name="close_navigation_drawer">Close navigation drawer</string>
+    <string name="drawer_tri_mira">ТриМира</string>
+    <string name="drawer_club_active_holiday">Клуб Активного Отдыха</string>
 </resources>

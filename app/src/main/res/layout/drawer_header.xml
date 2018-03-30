@@ -28,12 +28,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:text="Три Мира"/>
+            android:text="@string/drawer_tri_mira"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Клуб Активного Отдыха"/>
+            android:text="@string/drawer_club_active_holiday"/>
 
 
 

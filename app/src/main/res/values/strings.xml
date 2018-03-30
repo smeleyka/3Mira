@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tri Mira</string>
+    <string name="app_name">TriMira</string>
     <string name="url">http://tri-mira.ru/en</string>
     <string name="url_home">http://tri-mira.ru/en</string>
     <string name="url_route">http://tri-mira.ru/en/marshrut</string>
@@ -9,4 +9,6 @@
     <string name="nav_item_faq">FAQ</string>
     <string name="open_navigation_drawer">Open nav drawer</string>
     <string name="close_navigation_drawer">Close navigation drawer</string>
+    <string name="drawer_tri_mira">TriMira</string>
+    <string name="drawer_club_active_holiday">Club of Active Rest</string>
 </resources>

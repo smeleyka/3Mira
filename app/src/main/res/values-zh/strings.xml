@@ -2,12 +2,14 @@
 <resources>
     <string name="app_name">三界</string>
     <string name="url">http://tri-mira.ru/ch</string>
-    <string name="url_home">http://tri-mira.ru/en</string>
-    <string name="url_route">http://tri-mira.ru/en/marshrut</string>
+    <string name="url_home">http://tri-mira.ru/ch</string>
+    <string name="url_route">http://tri-mira.ru/ch/marshrut</string>
     <string name="url_faq">http://tri-mira.ru/ch/content/nin-de-wen-ti</string>
-    <string name="nav_item_route">Route</string>
-    <string name="nav_item_home">Home</string>
+    <string name="nav_item_route">所有路线</string>
+    <string name="nav_item_home">主页</string>
     <string name="nav_item_faq">FAQ</string>
     <string name="open_navigation_drawer">Open nav drawer</string>
     <string name="close_navigation_drawer">Close navigation drawer</string>
+    <string name="drawer_tri_mira">三界</string>
+    <string name="drawer_club_active_holiday">户外俱乐部</string>
 </resources>
